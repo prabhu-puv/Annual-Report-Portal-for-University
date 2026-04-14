@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/CAPSTONE/",   // ← ADD THIS LINE
+  base: "/Annual-Report-Portal-for-University/",
 
   server: {
     host: "::",

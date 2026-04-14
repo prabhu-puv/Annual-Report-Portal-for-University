@@ -4,7 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig({
-  base: "/",
+  base: "./",
+
   plugins: [react(), componentTagger()].filter(Boolean),
 
   resolve: {
